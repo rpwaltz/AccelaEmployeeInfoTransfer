@@ -1,0 +1,17 @@
+{
+  "name": "accela-employee-info-transfer",
+  "version": "1.0.0",
+  "description": "Transfer Peoplesoft Employee Info to Accela",
+  "main": "EmployeeInfoTransfer.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "log4js": "^6.9.1",
+    "oracledb": "^6.4.0"
+  }
+}

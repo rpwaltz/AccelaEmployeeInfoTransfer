@@ -1,0 +1,17 @@
+{
+  "appenders": {
+    "main": {
+      "type": "file",
+      "filename": "C:\\temp\\AccelaEmployeeInfoTransfer.log",
+      "maxLogSize": "1M",
+      "numBackups": 50,
+      "compress": true
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": ["main"],
+      "level": "DEBUG"
+    }
+  }
+}
